@@ -1,0 +1,6 @@
+generate cookbook--
+chef.io/accounts/login--login creds  --
+manage.chef.io--login creds
+
+chef.docks execute command
+

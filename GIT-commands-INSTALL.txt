@@ -1,0 +1,5 @@
+centos-yum usudopdate
+1)ubuntu-$sudo apt update
+2)$sudo apt install git
+3)$sudo -i (root user)
+

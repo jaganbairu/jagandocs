@@ -1,0 +1,65 @@
+99 git init    -----SCENARIO-1-new project & new file push
+-------------------------------------------------------------------------
+
+100 git add .
+
+101 git commit -m "first msgs"
+
+102 ls
+
+103 git log
+
+104 cat > jagan1.txt
+
+105 ls
+
+106 git status
+
+107 git add .
+
+108 git status
+
+109 git commit -m "f message"
+
+110 git status
+
+111 git log
+
+
+113 git remote add origin-new https://github.com/jaganbairu/xyz.git
+
+114 git push orgin-new master
+
+115 git remote add new https://github.com/jaganbairu/xyz.git
+SCENARIO-2
+-----------------------------------------------------------
+cat > jagan5.txt (anny file)
+git add .
+git commit -m "this is commited message"
+git push new master
+user name -jaganbairu
+password-r----
+
+go and check all the msgs at github.com
+
+SCENARIO-3
+--------------------------------------------
+
+
+116 git push new master 
+
+
+120 mkdir jaganclone (new Project for clonning)
+
+121 cd jaganclone
+
+122 git clone https://github.com/jaganbairu/xyz.git
+
+124 cd xyz
+
+125 ls
+
+126 all files will be seen
+
+
+

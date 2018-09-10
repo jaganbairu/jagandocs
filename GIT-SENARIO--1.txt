@@ -1,0 +1,12 @@
+1. Git global setup(Without this configuration you cannot commit locally)
+	git config --global user.name "<Your User Name>"
+	git config --global user.email "<your mail>"
+
+2. Consider You have a project with no version control, You want to setup the version control
+Existing folder(First time to "empty git Remote Repoitory")
+	cd sample-project
+	git init
+	git add .
+	git commit -m "Initial commit"
+	git remote add origin <repo URL>
+	git push -u origin master
